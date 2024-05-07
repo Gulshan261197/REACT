@@ -2,6 +2,8 @@ import React from 'react'
 
 
 const Card = ({ username, btnText = "submit" }) => {
+    //card k peranthesis me app.jsx se jo data pass kiya hai use yaha destructure kiya hai isme use krne k liye
+    //props pass krke v use skte hai but koi need nhi hai
     console.log(username);
     return (
         <div className="relative h-[400px] w-[300px] rounded-md">
