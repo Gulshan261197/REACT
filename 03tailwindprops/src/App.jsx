@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import Card from './components/Card'
+import Card from './components/card'
 
 function App() {
 
